@@ -1,3 +1,16 @@
 body{
     background-color: aqua;
 }
+table{
+    background-color: blue;
+    border-radius: 10px;
+    border-color: azure;
+    border-style: groove;
+    border-width: 10px;
+    color: aliceblue;
+}
+h1{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
