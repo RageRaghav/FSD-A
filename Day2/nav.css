@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mydiv{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    display: flex;
+    width: 100vw;
+    background-color: #ffff;
+    justify-content: center;
+    gap: 20px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+#header .logo{
+    color:bisque;
+    margin-left: 20px;
+    display: flex;
+}
+H2{
+    display: flex;
+}
+#header .menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#header .nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+.nav-item{
+   font-style: italic;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.Login {
+    width: Hug(104px)px;
+    height: Hug(48px)px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 3px;
+    border-radius: 10px;
+    border:1px solid grey;
+}
+.SignUp{
+    width: Hug (104px)px;
+  height: Hug (48px)px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #6f718e 0%, #51595b 100%);
+opacity: 0px;
+border: 1px solid grey;
+color: #FFFFFF;
+}
