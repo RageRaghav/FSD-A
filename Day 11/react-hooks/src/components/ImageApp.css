@@ -1,0 +1,23 @@
+.disp{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 20px;
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.img{
+    width: 100px;
+    height: 300px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.button{
+    background-color: bisque;
+    height: 50px;
+    width: 300px;
+    font-size: 10px;
+}
