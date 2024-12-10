@@ -1,8 +1,7 @@
-# React + Vite
+React packages used - 
+1.React Router Dom
+2.Navigator 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Procedure - 
+1.Register page takes Name,Email,Password as inputs
+2.{SetData} is Fetched from the Register page and then this setData's Email and Password is matched with the Login page inputs 

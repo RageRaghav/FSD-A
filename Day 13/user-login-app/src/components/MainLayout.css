@@ -1,0 +1,111 @@
+/* MainLayout.css */
+body {
+    font-family: 'Poppins', sans-serif; /* Use a modern font */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f0f8ff, #e6e6fa); /* Subtle gradient background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  nav {
+    background: #4a90e2; /* Cool blue for the navbar */
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Sticky navbar */
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #357ab8; /* Slightly darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  nav ul li a:active {
+    background-color: #2a5d8e; /* Even darker blue for active state */
+    transform: scale(0.95); /* Slight shrink effect */
+  }
+  
+  div {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff; /* White background for content */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #4a90e2; /* Primary color for headings */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 12px 20px;
+    color: #fff;
+    background: #4caf50; /* Green button */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #3a923f; /* Slightly darker green on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  button:active {
+    background: #2f7331; /* Dark green for active state */
+    transform: translateY(0); /* Reset lift effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  }
+  

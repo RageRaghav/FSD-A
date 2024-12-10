@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useNavigate } from 'react-router-dom';
 const Register = ({regData}) => {
     const [name,setName] = useState();
     const [email,setEmail] = useState();
-    const [Password,setPassword] = useState();
-    const data={name,email,Password}
+    const [password,setPassword] = useState();
+    const navigate = useNavigate();
+    const data={name,email,password}
     const handlereg=(e)=>{
         e.preventDefault();
         alert("Success");
         regData(data)
+        navigate('/login');
     }
   return (
     <div>
